@@ -1,0 +1,51 @@
+
+Inhertence:-
+	we can call the other class function by using the current class reference variable with the help of extends.
+
+Extends(Key):-
+		This "extends" key is used to call the parent class properties with child class referene variable without creating an object for parent class.
+
+********>whie we are using the constractor there is no "this" or "super" key word at that time constractor take by default key "super" thyat why this statement excute 2nd statement.
+
+
+Method Overriding:-
+
+		*>In child class writen the same method prototype but changing the logic.
+		*>Overriding is only applicable for methods not for variable.
+		*>we can't override the static methods.
+
+	**>By Default object classes is parent class and we getting the other functions from the object class
+	**>ToString is a pre-defined class in java.
+
+UpCasting:-
+	**>when we assign the child class obect to parent class reference variable.
+	**>upcasting we are using only for overriding logics.
+About String:-
+	String is a sequence of char.
+	string is immutable.
+	String is predifened class in java.
+	String is cantaining the char array.
+	string class reference variable print the object data instead of adress
+
+
+
+
+
+
+Interface:-
+		1.We can't create an object for Interface.
+		2.Interface cantains 100% un-implimented functions.
+		3.These un-implimented functions are implimented in class.
+
+Abstract:-
+		1.We can't create an object for abstract class directly.
+		2.We can able to create an object for abstract class with the child class.
+		3.abstract classes contain 0 to 100% unimplimented functions.
+
+Access Modifies:-
+		1.Private
+		2.Default
+		3.Protected
+		4.Public
+
+			
